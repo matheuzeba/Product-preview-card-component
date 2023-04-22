@@ -1,0 +1,132 @@
+/* fontes */
+/* 
+font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif; 
+*/
+
+/* body */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    min-height: 100%;
+
+    padding: 1.5rem;
+    background-color: gray;
+}
+
+/* main */
+body main  {
+    max-width: 95%;
+    
+    background-color: #fff;
+    border-radius: 1rem;
+}
+
+/* imagem */
+body main .secao-principal .imagem img {
+    border-radius: 1rem 1rem 0 0;
+}
+
+/* main texto */
+body main .secao-principal .texto {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+
+    padding: 1.5rem;
+}
+
+/*  wrappers do main*/
+body main .secao-principal .texto .texto-principal-wrapper,
+body main .secao-principal .texto .pagamento .pagamento-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+body main .secao-principal .texto .pagamento .pagamento-wrapper {
+    gap: 1.5rem;
+}
+
+/* main texto tag p */
+
+body main .secao-principal .texto .texto-principal-wrapper p {
+    color: hsl(228, 12%, 48%);
+    font-size: 1.4rem;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+/* main texto primeira tag p */
+body main .secao-principal .texto .texto-principal-wrapper p:first-child {
+    font-size: 1rem;
+    letter-spacing: 0.5rem;
+}
+
+
+/* main texto tag h1 */
+body main .secao-principal .texto .texto-principal-wrapper h1 {
+    color: hsl(212, 21%, 14%);
+    font-size: 2.8rem;
+    font-family: 'Fraunces', sans-serif; 
+}
+
+/* .PAGAMENTO */
+body main .secao-principal .texto .pagamento {
+    padding-bottom: 1.5rem;
+}
+
+/* .PAGAMENTO h2*/
+body main .secao-principal .texto .pagamento .pagamento-wrapper  h2 {
+    /* alinhando span do h2 */
+    display: flex;
+    align-items: center;
+
+    color: hsl(158, 36%, 37%);
+    font-size: 2rem;
+    font-family: 'Fraunces', sans-serif; 
+}
+
+/* .PAGAMENTO span*/
+body main .secao-principal .texto .pagamento .pagamento-wrapper h2 span {
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+
+body main .secao-principal .texto .pagamento .pagamento-wrapper  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    border-radius: 1rem;
+
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif; 
+
+    color: #fff;
+    background: hsl(158, 36%, 37%);
+}
+
+/* .PAGAMENTO button*/
+body main .secao-principal .texto .pagamento .pagamento-wrapper  button img {
+    margin-right: 1rem;
+    width: 5%;
+}
+
+
+/* DETALHES */
+
+body main .secao-principal .texto .pagamento .pagamento-wrapper  button{
+    transition: 0.5s;
+}
+
+body main .secao-principal .texto .pagamento .pagamento-wrapper  button:hover {
+    cursor: pointer;
+    padding: 2rem;
+    text-decoration: underline;
+    background: hsl(157, 34%, 12%);
+}

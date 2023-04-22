@@ -1,0 +1,55 @@
+@media (min-width: 700px) {
+    body main {
+        max-width: 53.6rem;
+    }
+
+    body main .secao-principal {
+        display: flex;
+    }
+
+    body main .secao-principal .imagem {
+        content: url(../images/image-product-desktop.jpg);
+        max-width: 50%;
+        border-radius: 1rem 0 0 1rem;
+    }
+
+    body main .secao-principal .texto {
+        justify-content: space-around;
+    }
+
+    body main .secao-principal .texto .pagamento .pagamento-wrapper {
+        gap: 3.5rem;
+    }
+    body main .secao-principal .texto .pagamento .pagamento-wrapper  button img {
+        width: 7%;
+    }
+}
+
+@media (min-width: 1000px) {
+    body main {
+        max-width: 70rem;
+    }
+    body main .secao-principal .texto .texto-principal-wrapper {
+        gap: 3rem;
+    }
+    body main .secao-principal .texto .texto-principal-wrapper p {
+        font-size: 2rem;
+    }
+    body main .secao-principal .texto .texto-principal-wrapper h1 {
+        font-size: 3.8rem;
+    }
+    body main .secao-principal .texto .texto-principal-wrapper p:first-child {
+        font-size: 1.5rem;
+        letter-spacing: 0.5rem;
+    }
+    body main .secao-principal .texto .pagamento .pagamento-wrapper h2 {
+        font-size: 3rem;
+    }
+    body main .secao-principal .texto .pagamento .pagamento-wrapper h2 span {
+        font-size: 2rem;
+    }
+
+    body main .secao-principal .texto .pagamento .pagamento-wrapper button {
+        font-size: 2rem;
+    }
+}
