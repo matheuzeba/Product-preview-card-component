@@ -13,7 +13,7 @@ body {
     min-height: 100%;
 
     padding: 1.5rem;
-    background-color: gray;
+    background-color: hsl(30, 38%, 92%);
 }
 
 /* main */
